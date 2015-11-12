@@ -9,6 +9,7 @@ _sdbag.push(['products', [
     {
         id: 1,
         categories: [{23: "Smartphones"}],
+        name: "iPhone 5S Cover",
         price: "69.00",
         currency: "EUR",
         sku: "0000001",
