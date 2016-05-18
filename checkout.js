@@ -32,7 +32,8 @@ _sdbag.push(['products', [
 // COMMENT OUT IF YOU WANT TO SEE DEBUG OUTPUT IN BROWSER'S JS CONSOLE. DO NOT ACTIVATE THIS IN PRODUCTION USE
 //_sdbag.push(['debug', true]);
  
-_sdbag.push(['init', 'checkout']);
+_sdbag.push(['init', 'checkout']); // For checkout page
+//_sdbag.push(['init', 'cart']); // For shopping cart page
  
 (function() {
     var ss = document.createElement('script'); ss.type = 'text/javascript'; ss.async = true;
