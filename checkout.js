@@ -31,9 +31,12 @@ _sdbag.push(['products', [
  
 // COMMENT OUT IF YOU WANT TO SEE DEBUG OUTPUT IN BROWSER'S JS CONSOLE. DO NOT ACTIVATE THIS IN PRODUCTION USE
 //_sdbag.push(['debug', true]);
+
+// This indicates which page you are initializing the plugin. Use "cart" if it's shopping cart page, or "checkout" for checkout page
+_sdbag.push(['page', 'cart']);
  
 _sdbag.push(['init', 'checkout']); // For checkout page
-//_sdbag.push(['init', 'cart']); // For shopping cart page
+
  
 (function() {
     var ss = document.createElement('script'); ss.type = 'text/javascript'; ss.async = true;
