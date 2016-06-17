@@ -35,7 +35,7 @@ _sdbag.push(['products', [
 // This indicates which page you are initializing the plugin. Use "cart" if it's shopping cart page, or "checkout" for checkout page
 _sdbag.push(['page', 'cart']);
  
-_sdbag.push(['init', 'checkout']); // For checkout page
+_sdbag.push(['init', 'checkout']); // When the "page" parameter set to "cart" or "checkout", "init" parameter has to have "checkout" value.
 
  
 (function() {
