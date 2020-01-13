@@ -2,7 +2,7 @@ var _sdbag = _sdbag || [];
  
 _sdbag.push(['partnerId', 404]); //replace it with your partner id
 _sdbag.push(['shopId', 9]); //replace it with your shop id
-_sdbag.push(['country', 'de']); //replace it with your customer's country code
+_sdbag.push(['country', 'jp']); //replace it with your customer's country code
  
  // Products in customer's shopping cart
 _sdbag.push(['products', [
@@ -33,7 +33,7 @@ _sdbag.push(['products', [
 //_sdbag.push(['debug', true]);
 
 // This indicates which page you are initializing the plugin. Use "cart" if it's shopping cart page, or "checkout" for checkout page
-_sdbag.push(['page', 'cart']);
+_sdbag.push(['page', 'checkout']);
  
 _sdbag.push(['init', 'checkout']); // When the "page" parameter set to "cart" or "checkout", "init" parameter has to have "checkout" value.
 

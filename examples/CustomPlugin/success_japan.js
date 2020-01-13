@@ -2,7 +2,7 @@ var _sdbag = _sdbag || [];
  
 _sdbag.push(['partnerId', 404]); //replace it with your partner id
 _sdbag.push(['shopId', 9]); //replace it with your shop id
-_sdbag.push(['country', 'de']); //replace it with your customer's country code
+_sdbag.push(['country', 'jp']); //replace it with your customer's country code
  
 _sdbag.push(['orderId', '32432432432']); // replace it with the order id
  
@@ -16,7 +16,7 @@ _sdbag.push(['customer', {
     street_number: 178,
     zip: 10115,
     city: "Berlin",
-    country: "de"
+    country: "jp"
 }]);
  
 // COMMENT OUT IF YOU WANT TO WORK ON SANDBOX (PARTNER ID AND SHOP ID VALUES WILL BE DIFFERENT)
