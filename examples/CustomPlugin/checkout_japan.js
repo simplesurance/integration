@@ -25,7 +25,14 @@ _sdbag.push(['products', [
         qty: 1
     }
 ]]);
- 
+
+
+// CONNECT TO JAPANESE STAGING SYSTEM - COMMENT OUT FOR PRODUCTION
+_sdbag.push(['baseUrl', 'https://www-stg.simplesurance.co.jp/jsapi/v2/']);
+
+// CONNECT TO JAPANESE PRODUCTION SYSTEM - COMMENT IN FOR PRODUCTION
+//_sdbag.push(['baseUrl', 'https://www.simplesurance.co.jp/jsapi/v2/']); 
+
 // COMMENT OUT IF YOU WANT TO WORK ON SANDBOX (PARTNER ID AND SHOP ID VALUES WILL BE DIFFERENT)
 //_sdbag.push(['sandbox', true]);
  

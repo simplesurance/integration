@@ -1,3 +1,23 @@
+<html lang="ja">
+<head>
+
+</head>
+
+<body>
+
+
+<!-- Simplesurance example integration on checkout --->
+
+<!--- Simplesurance integration end--->
+
+<div id="interface-placeholder" ></div>
+
+<a id="checkout-button" href="checkout_page.html">Restart</a>
+
+<script language="JavaScript">
+
+
+
 var _sdbag = _sdbag || [];
  
 _sdbag.push(['partnerId', 533184]); //replace it with your partner id
@@ -23,25 +43,20 @@ _sdbag.push(['attributePhoneticFirstname', 'あきら']);
 _sdbag.push(['attributePhoneticLastname', 'くろさわ']);
 _sdbag.push(['attributePhoneticPrefecture', '千葉県']);
 
-// CONNECT TO JAPANESE STAGING SYSTEM - COMMENT OUT FOR PRODUCTION
-_sdbag.push(['baseUrl', 'https://www-stg.simplesurance.co.jp/jsapi/v2/']);
+	_sdbag.push(['baseUrl', 'https://www-stg.simplesurance.co.jp/jsapi/v2/']);
+	//_sdbag.push(['sandbox', true]);
+	_sdbag.push(['page', 'success']);
+	_sdbag.push(['init', 'success']); // When the "page" parameter set to "cart" or "checkout", "init" parameter has to have "checkout" value.
 
-// CONNECT TO JAPANESE PRODUCTION SYSTEM - COMMENT IN FOR PRODUCTION
-//_sdbag.push(['baseUrl', 'https://www.simplesurance.co.jp/jsapi/v2/']); 
 
-// COMMENT OUT IF YOU WANT TO WORK ON SANDBOX (PARTNER ID AND SHOP ID VALUES WILL BE DIFFERENT)
-//_sdbag.push(['sandbox', true]);
- 
-// COMMENT OUT IF YOU WANT TO SEE DEBUG OUTPUT IN BROWSER'S JS CONSOLE. DO NOT ACTIVATE THIS IN PRODUCTION USE
-//_sdbag.push(['debug', true]);
-
-// This indicates which page you are initializing the plugin. Use "success" for success page.
-_sdbag.push(['page', 'success']);
-
-_sdbag.push(['init', 'success']);
- 
 (function() {
     var ss = document.createElement('script'); ss.type = 'text/javascript'; ss.async = true;
     ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://')  + 'www.simplesurance.co.jp/jsapi/sisu-checkout-2.x.min.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ss, s);
 })();
+
+
+</script>
+
+</body>
+</html>
