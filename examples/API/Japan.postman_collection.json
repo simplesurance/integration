@@ -1,0 +1,78 @@
+{
+	"info": {
+		"_postman_id": "1e5985e4-19cb-409d-b9fb-82efd54bcec3",
+		"name": "Japan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "REST API",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "sisu-auth-token",
+						"value": "25vbn6j78hgf5d453xdefrgth7jzu8kil"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "productGroup",
+							"value": "34826",
+							"type": "text"
+						},
+						{
+							"key": "customer[email]",
+							"value": "hz+20200120-02@simplesurance.de",
+							"type": "text"
+						},
+						{
+							"key": "productGroupOption[id]",
+							"value": "80676",
+							"type": "text"
+						},
+						{
+							"key": "identifiers[0][price]",
+							"value": "2459",
+							"type": "text"
+						},
+						{
+							"key": "identifiers[0][serialNumber]",
+							"value": "28934735892356",
+							"type": "text"
+						},
+						{
+							"key": "attributePhoneticLastname",
+							"value": "phoneticLastnameContent",
+							"type": "text"
+						},
+						{
+							"key": "attributePhoneticFirstname",
+							"value": "phoneticFirstanmeContent",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www-de.sb-ana6823.sisu.sh/api/transactions/create",
+					"protocol": "https",
+					"host": [
+						"www-de",
+						"sb-ana6823",
+						"sisu",
+						"sh"
+					],
+					"path": [
+						"api",
+						"transactions",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
