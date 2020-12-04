@@ -28,10 +28,10 @@ _sdbag.push(['products', [
 
 
 // CONNECT TO JAPANESE STAGING SYSTEM - COMMENT OUT FOR PRODUCTION
-_sdbag.push(['baseUrl', 'https://www-stg.simplesurance.co.jp/jsapi/v2/']);
+_sdbag.push(['baseUrl', 'https://jsapi-stg.simplesurance.co.jp/v2/']);
 
 // CONNECT TO JAPANESE PRODUCTION SYSTEM - COMMENT IN FOR PRODUCTION
-//_sdbag.push(['baseUrl', 'https://www.simplesurance.co.jp/jsapi/v2/']); 
+//_sdbag.push(['baseUrl', 'https://jsapi.simplesurance.co.jp/v2/']); 
 
 // COMMENT OUT IF YOU WANT TO WORK ON SANDBOX (PARTNER ID AND SHOP ID VALUES WILL BE DIFFERENT)
 //_sdbag.push(['sandbox', true]);
@@ -47,6 +47,6 @@ _sdbag.push(['init', 'checkout']); // When the "page" parameter set to "cart" or
  
 (function() {
     var ss = document.createElement('script'); ss.type = 'text/javascript'; ss.async = true;
-    ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://')  + 'www.simplesurance.co.jp/jsapi/sisu-checkout-2.x.min.js';
+    ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://')  + 'jsapi.simplesurance.co.jp/sisu-checkout-2.x.min.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ss, s);
 })();
