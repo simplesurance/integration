@@ -8,20 +8,20 @@ _sdbag.push(['country', 'jp']); //replace it with your customer's country code
 _sdbag.push(['products', [
     {
         id: 1,
-        categories: [{23: "Smartphones"}],
-        name: "iPhone XR",
-        price: "97944",
-        currency: "JPY",
-        sku: "0000001",
+        categories: [{23: 'Smartphones'}],
+        name: 'iPhone XR',
+        price: '97944',
+        currency: 'JPY',
+        sku: '0000001',
         qty: 1
     },
     {
         id: 1,
-        categories: [{123: "Smartphone Accessories"}],
-        name: "iPhone XR Cover",
-        price: "1200",
-        currency: "JPY",
-        sku: "0000002",
+        categories: [{123: 'Smartphone Accessories'}],
+        name: 'iPhone XR Cover',
+        price: '1200',
+        currency: 'JPY',
+        sku: '0000002',
         qty: 1
     }
 ]]);
@@ -39,10 +39,10 @@ _sdbag.push(['baseUrl', 'https://jsapi-stg.simplesurance.co.jp/v2/']);
 // COMMENT OUT IF YOU WANT TO SEE DEBUG OUTPUT IN BROWSER'S JS CONSOLE. DO NOT ACTIVATE THIS IN PRODUCTION USE
 //_sdbag.push(['debug', true]);
 
-// This indicates which page you are initializing the plugin. Use "cart" if it's shopping cart page, or "checkout" for checkout page
+// This indicates which page you are initializing the plugin. Use 'cart' if it's shopping cart page, or 'checkout' for checkout page
 _sdbag.push(['page', 'checkout']);
  
-_sdbag.push(['init', 'checkout']); // When the "page" parameter set to "cart" or "checkout", "init" parameter has to have "checkout" value.
+_sdbag.push(['init', 'checkout']); // When the 'page' parameter set to 'cart' or 'checkout', 'init' parameter has to have 'checkout' value.
 
  
 (function() {

@@ -1,4 +1,4 @@
-<html lang="ja">
+<html lang='ja'>
 <head>
 
 </head>
@@ -10,11 +10,11 @@
 
 <!--- Simplesurance integration end--->
 
-<div id="interface-placeholder" ></div>
+<div id='interface-placeholder' ></div>
 
-<a id="checkout-button" href="success_page.html">Proceed</a>
+<a id='checkout-button' href='success_page.html'>Proceed</a>
 
-<script language="JavaScript">
+<script language='JavaScript'>
 
 
 
@@ -28,33 +28,33 @@ _sdbag.push(['country', 'jp']); //replace it with your customer's country code
 _sdbag.push(['products', [
     {
         id: 1,
-        categories: [{1: "Smartphones"}],
-        name: "iPhone XR",
-        price: "97944",
-        currency: "JPY",
-        sku: "0000001",
+        categories: [{1: 'Smartphones'}],
+        name: 'iPhone XR',
+        price: '97944',
+        currency: 'JPY',
+        sku: '0000001',
         qty: 1
     },
     {
         id: 1,
-        categories: [{123: "Smartphone Accessories"}],
-        name: "iPhone XR Cover",
-        price: "1200",
-        currency: "JPY",
-        sku: "0000002",
+        categories: [{123: 'Smartphone Accessories'}],
+        name: 'iPhone XR Cover',
+        price: '1200',
+        currency: 'JPY',
+        sku: '0000002',
         qty: 1
     }
 ]]);
 
-	_sdbag.push(['baseUrl', 'https://www-stg.simplesurance.co.jp/jsapi/v2/']);
+	_sdbag.push(['baseUrl', 'https://jsapi-stg.simplesurance.co.jp/v2/']);
 	//_sdbag.push(['sandbox', true]);
 	_sdbag.push(['page', 'checkout']);
-	_sdbag.push(['init', 'checkout']); // When the "page" parameter set to "cart" or "checkout", "init" parameter has to have "checkout" value.
+	_sdbag.push(['init', 'checkout']); // When the 'page' parameter set to 'cart' or 'checkout', 'init' parameter has to have 'checkout' value.
 
 
 (function() {
     var ss = document.createElement('script'); ss.type = 'text/javascript'; ss.async = true;
-    ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://')  + 'www.simplesurance.co.jp/jsapi/sisu-checkout-2.x.min.js';
+    ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://')  + 'jsapi.simplesurance.co.jp/sisu-checkout-2.x.min.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ss, s);
 })();
 

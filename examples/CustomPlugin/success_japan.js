@@ -8,20 +8,20 @@ _sdbag.push(['orderId', '32432432432']); // replace it with the order id
  
  // customer data
 _sdbag.push(['customer', {
-    firstname: "明",
-    lastname: "黒澤",
-    email: "example@simplesurance.com",
-    phone: "0815039142898",
-    street: "市中央弁天２丁目１−10",
+    firstname: '明',
+    lastname: '黒澤',
+    email: 'example@simplesurance.com',
+    phone: '0815039142898',
+    street: '市中央弁天２丁目１−10',
     street_number: '',
     zip: '260-0031',
-    city: "千葉",
-    country: "jp"
+	prefecture: '千葉県',
+    city: '千葉',
+    country: 'jp'
 }]);
 
 _sdbag.push(['attributePhoneticFirstname', 'あきら']);
 _sdbag.push(['attributePhoneticLastname', 'くろさわ']);
-_sdbag.push(['attributePhoneticPrefecture', '千葉県']);
 
 // CONNECT TO JAPANESE STAGING SYSTEM - COMMENT OUT FOR PRODUCTION
 _sdbag.push(['baseUrl', 'https://jsapi-stg.simplesurance.co.jp/v2/']);
@@ -35,7 +35,7 @@ _sdbag.push(['baseUrl', 'https://jsapi-stg.simplesurance.co.jp/v2/']);
 // COMMENT OUT IF YOU WANT TO SEE DEBUG OUTPUT IN BROWSER'S JS CONSOLE. DO NOT ACTIVATE THIS IN PRODUCTION USE
 //_sdbag.push(['debug', true]);
 
-// This indicates which page you are initializing the plugin. Use "success" for success page.
+// This indicates which page you are initializing the plugin. Use 'success' for success page.
 _sdbag.push(['page', 'success']);
 
 _sdbag.push(['init', 'success']);

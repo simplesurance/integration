@@ -8,20 +8,20 @@ _sdbag.push(['country', 'de']); //replace it with your customer's country code
 _sdbag.push(['products', [
     {
         id: 1,
-        categories: [{23: "Smartphones"}],
-        name: "iPhone 5S",
-        price: "69.00",
-        currency: "EUR",
-        sku: "0000001",
+        categories: [{23: 'Smartphones'}],
+        name: 'iPhone 5S',
+        price: '69.00',
+        currency: 'EUR',
+        sku: '0000001',
         qty: 1
     },
     {
         id: 1,
-        categories: [{123: "Smartphone Accessories"}],
-        name: "iPhone 5S Cover",
-        price: "99.99",
-        currency: "EUR",
-        sku: "0000002",
+        categories: [{123: 'Smartphone Accessories'}],
+        name: 'iPhone 5S Cover',
+        price: '99.99',
+        currency: 'EUR',
+        sku: '0000002',
         qty: 1
     }
 ]]);
@@ -32,10 +32,10 @@ _sdbag.push(['products', [
 // COMMENT OUT IF YOU WANT TO SEE DEBUG OUTPUT IN BROWSER'S JS CONSOLE. DO NOT ACTIVATE THIS IN PRODUCTION USE
 //_sdbag.push(['debug', true]);
 
-// This indicates which page you are initializing the plugin. Use "cart" if it's shopping cart page, or "checkout" for checkout page
+// This indicates which page you are initializing the plugin. Use 'cart' if it's shopping cart page, or 'checkout' for checkout page
 _sdbag.push(['page', 'cart']);
  
-_sdbag.push(['init', 'checkout']); // When the "page" parameter set to "cart" or "checkout", "init" parameter has to have "checkout" value.
+_sdbag.push(['init', 'checkout']); // When the 'page' parameter set to 'cart' or 'checkout', 'init' parameter has to have 'checkout' value.
 
  
 (function() {
