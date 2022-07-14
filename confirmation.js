@@ -1,4 +1,6 @@
- window._sdbag = {
+// CONFIRMATION PAGE
+
+window._sdbag = {
       shop: {
         id: '65465jgb', //Provided by Simplesurance
         country: 'DE',
