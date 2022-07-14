@@ -22,7 +22,7 @@ window._sdbag = {
             ],
           },
         ],
-        page_type: 'CART', // Just replace it with CHECKOUT on the checkout page.
+        page_type: 'CART', // Just replace the value to CHECKOUT if you are in the checkout page.
       }
  
 (function() {
