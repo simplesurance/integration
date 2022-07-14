@@ -1,32 +1,28 @@
-_sdbag.push(['shop', [
-    {
-  'shopId': e46adcde345f476183b25ea65b636fd0, //replace it with the shop id provided by simplesurance
-  'country': DE, //replace it with your user's country code
-  'language': EN, //replace it with the language code selected by the user in your shop
-  'currency': EUR, // replace it with the currency code selected by the user in your shop
-    },
-
-_sdbag.push(['orderId', '32432432432']); // replace it with the customer's order id
-
-// customer data
-_sdbag.push(['customer', {
-    firstname: "John",
-    lastname: "Smith",
-    email: "dadsadsda@example.com",
-    phone: "+49 (30) 00000000",
-    street: "Hallesches Ufer",
-    street_number: 60,
-    zip: 10963,
-    city: "Berlin",
-    country: "DE", //replace it with your user's country code
-    taxnumber: "", // mandatory for IT, ES and PT
-}]);
+ window._sdbag = {
+      shop: {
+        id: '65465jgb', //Provided by Simplesurance
+        country: 'DE',
+        currency: 'EUR',
+      },
+      page_type: 'SUCCESS', // Needs to be in capital letters
+      customer: {
+        first_name: 'John',
+        last_name: 'Doe',
+        address: {
+          city: 'Berlin',
+          country: 'DE',
+          house_number: '16',
+          street: 'Am Karlsbad',
+          zip_code: '10627',
+        },
+        email: 'john.doe@simplesurance.de',
+        tax_number: '12312321', //Mandatory for IT,ES and PT
+        phone_number: '+4917484546
+      }
 
 // This indicates which page you are initializing the plugin. Use "success" for success page.
-_sdbag.push(['page_type', 'success']);
 
-_sdbag.push(['init', 'success']);
- 
+      
 (function() {
     var ss = document.createElement('script'); ss.type = 'text/javascript'; ss.async = true;
     ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://')  + 'x-sell-plugin.simplesurance.de/bundle.js';
