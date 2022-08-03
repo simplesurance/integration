@@ -2,6 +2,7 @@ window._sdbag = {
     shop: {
         id: '15e36b012c17486e88df40e4961fe058',
         country: 'DE',
+        language: 'EN',
         currency: 'EUR',
     },
     page_type: 'SUCCESS',
@@ -16,6 +17,7 @@ window._sdbag = {
             zip_code: '10785',
             city: 'Berlin',
             country: 'de',
+            tax_number: '23296684F', // Required for the following countries: Portugal, Spain, Italy.
         },
     },
     order_id: '3243243',
