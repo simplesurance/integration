@@ -12,7 +12,7 @@ window._sdbag = {
                 amount: '10',
             },
             quantity: 1,
-            category_chain: [{ id: '2', name: 'CATEGORY_SMARTPHONE' }],
+            category_chain: [{ id: '2', name: 'Smartphones' }],
             criteria: [
                 {
                     criterion: 'EAN',
@@ -20,8 +20,8 @@ window._sdbag = {
                 },
             ],
             variables: [
-                { value: 'Hummingbird printed t-shirt', variable: 'ITEM_NAME' },
-                { value: '1', variable: 'ITEM_ID' },
+                { variable: 'ITEM_NAME', value: 'Apple iPhone 11 Pro 256GB' },
+                { variable: 'ITEM_ID', value: '15608' },
             ],
         }
     ],
