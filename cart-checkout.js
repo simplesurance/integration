@@ -2,7 +2,7 @@
 
 window._sdbag = {
         shop: {
-          id: '123dcfg1312',
+          id: '123dcfg1312', //Provided by Simplesurance
           country: 'DE',
           language: 'DE',
           currency: 'EUR',
