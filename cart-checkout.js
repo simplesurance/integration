@@ -15,7 +15,7 @@ window._sdbag = {
             },
             quantity: 1,
             category_chain: [{ id: '2', name: 'Iphone 12' }],
-            criteria: [],
+            //criteria: [], // optional, in case EAN or SKU is sent instead of category ID
             variables: [
               { value: 'Hummingbird printed t-shirt', variable: 'ITEM_NAME' },
               { value: '1', variable: 'ITEM_ID' },
