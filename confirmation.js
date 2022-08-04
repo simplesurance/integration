@@ -5,6 +5,7 @@ window._sdbag = {
         id: '65465jgb', //Provided by Simplesurance
         country: 'DE',
         currency: 'EUR',
+        language: 'DE',
       },
       page_type: 'SUCCESS', // Needs to be in capital letters
       customer: {
