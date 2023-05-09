@@ -23,8 +23,7 @@ window._sdbag = {
           },
         ],
         page_type: 'CART', // Just replace the value to CHECKOUT if you are in the checkout page.
-      }
- ;
+      };
 (function() {
     var ss = document.createElement('script'); ss.type = 'text/javascript'; ss.async = true;
     ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://')  + 'x-sell-plugin.simplesurance.de/bundle.js';
