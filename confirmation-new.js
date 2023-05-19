@@ -7,6 +7,7 @@ window._sdbag = {
         currency: 'EUR',
         language: 'DE',
       },
+      orderId: '342sfvds',
       page_type: 'SUCCESS', // Needs to be in capital letters
       customer: {
         first_name: 'John',
@@ -22,6 +23,7 @@ window._sdbag = {
         tax_number: '12312321', //Mandatory for IT,ES and PT
         phone_number: '+4917484546'
       }
+}
 
 // This indicates which page you are initializing the plugin. Use "success" for success page.
 
