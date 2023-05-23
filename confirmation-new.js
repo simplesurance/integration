@@ -23,7 +23,7 @@ window._sdbag = {
         tax_number: '12312321', //Mandatory for IT,ES and PT
         phone_number: '+4917484546'
       }
-}
+};
 
 // This indicates which page you are initializing the plugin. Use "success" for success page.
 
