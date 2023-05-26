@@ -7,7 +7,7 @@ window._sdbag = {
         currency: 'EUR',
         language: 'DE',
       },
-      orderId: '342sfvds',
+      order_id: '342sfvds',
       page_type: 'SUCCESS', // Needs to be in capital letters
       customer: {
         first_name: 'John',
